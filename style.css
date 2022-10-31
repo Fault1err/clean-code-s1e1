@@ -51,12 +51,12 @@
 }
 
 .tasks-list__task,
-h3 {
+.tasks-list-name {
   list-style: none;
 }
 
-input,
-button{
+.input-el,
+button {
   outline: none;
 }
 
@@ -76,8 +76,8 @@ button:hover {
 
 /* Heading */
 
-h3,
-label[for="new-task"] {
+.tasks-list-name,
+.app-interface__add-task {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -87,7 +87,7 @@ label[for="new-task"] {
   text-transform: uppercase;
 }
 
-input[type="text"] {
+.input-el_text {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -100,13 +100,13 @@ input[type="text"] {
   color: #888;
 }
 
-input[type="text"]:focus {
+.input-el_text:focus {
   color: #333;
 }
 
 /* New Task */
 
-label[for="new-task"] {
+.app-interface__add-task {
   display: block;
   margin: 0 0 20px;
 }
@@ -131,18 +131,18 @@ label[for="new-task"] {
   vertical-align: middle;
 }
 
-.tasks-list__task > input[type="checkbox"] {
+.tasks-list__task > .input-el_checkbox {
   margin: 0 10px;
 }
 
-.tasks-list__task > label {
+.tasks-list__task > .app-interface__task-label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
 
-.tasks-list__task >    input[type="text"] {
+.tasks-list__task > .input-el_text {
   width: 226px;
 }
 
@@ -158,22 +158,22 @@ button.delete img:hover {
 
 /* Completed */
 
-.tasks-complete label {
+.tasks-complete .app-interface__task-label {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 
-.tasks-list .tasks-list__task input[type="text"] {
+.tasks-list .tasks-list__task .input-el_text {
   display: none;
 }
 
-.tasks-list .editMode input[type="text"] {
+.tasks-list .editMode .input-el_text {
   display: inline-block;
   width: 224px;
 }
 
-.tasks-list .editMode label {
+.tasks-list .editMode .app-interface__task-label {
   display: none;
 }
