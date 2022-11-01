@@ -21,7 +21,7 @@
   font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
 
   .aaa {
     text-align: center;
@@ -60,7 +60,7 @@
   outline: none;
 }
 
-.app-interface__button {
+button {
   background: none;
   border: 0px;
   color: #888;
@@ -70,7 +70,7 @@
   cursor: pointer;
 }
 
-.app-interface__button:hover {
+button:hover {
   color: #3a3A3a;
 }
 
@@ -146,7 +146,7 @@
   width: 226px;
 }
 
-app-interface__img {
+.delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
