@@ -146,7 +146,7 @@
   width: 226px;
 }
 
-.delete img {
+app-interface__img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
