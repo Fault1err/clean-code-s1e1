@@ -11,21 +11,19 @@
 </head>
 <body>
   <div class="app-interface">
-    <div class="app-interface__logo">
+    <header class="app-interface__logo">
       <img class="app-interface__img" src="./eisenhower-matrix.jpg" alt="eisenhower matrix">
       <a
           class="app-interface__more-inf"
           href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?
       </a>
-    </div>
-    <div class="app-interface__main-block">
-      <p>
-      <label class="app-interface__add-task" for="new-task">Add Item</label>
-      <div class="app-interface__add-new-task">
+    </header>
+    <main class="app-interface__main-block">
+      <h3 class="app-interface__add-task">Add Item</h3>
+      <section class="app-interface__add-new-task">
         <input class="input-el input-el_text new-task task" type="text">
         <button class="app-interface__button">Add</button>
-      </div>
-      </p>
+      </section>
       <h3 class="tasks-list-name">Todo</h3>
       <ul class="tasks-list tasks-incomplete">
         <li class="tasks-list__task">
@@ -59,7 +57,7 @@
           </button>
         </li>
       </ul>
-    </div>
+    </main>
   </div>
   <script src="app.js"></script>
 </body>
