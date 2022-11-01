@@ -6,7 +6,7 @@
   font-family: Lato, sans-serif;
 }
 
-.aaa {
+.app-interface__logo {
   width: 500px;
   margin: 0 auto;
   display: block;
@@ -17,19 +17,19 @@
   width: 100%;
 }
 
-.aaa .more_inf {
+.app-interface__logo .app-interface__more-inf {
   font-family: fantasy, cursive;
 }
 
 @media (max-width: 768px) {
 
-  .aaa {
+  .app-interface__logo {
     text-align: center;
   }
 
 }
 
-.centered-main-page-element {
+.app-interface__main-block {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -41,7 +41,7 @@
   flex-grow: 1;
 }
 
-.task-row-wrapper {
+.app-interface__add-new-task {
   display: flex;
 }
 
@@ -169,11 +169,11 @@ button:hover {
   display: none;
 }
 
-.tasks-list .editMode .input-el_text {
+.tasks-list .tasks-list__edit-mode .input-el_text {
   display: inline-block;
   width: 100%;
 }
 
-.tasks-list .editMode .app-interface__task-label {
+.tasks-list .tasks-list__edit-mode .app-interface__task-label {
   display: none;
 }

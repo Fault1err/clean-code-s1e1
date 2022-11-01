@@ -11,17 +11,17 @@
 </head>
 <body>
   <div class="app-interface">
-    <div class="aaa">
+    <div class="app-interface__logo">
       <img class="app-interface__img" src="./eisenhower-matrix.jpg" alt="eisenhower matrix">
       <a
-          class="more_inf"
+          class="app-interface__more-inf"
           href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?
       </a>
     </div>
-    <div class="centered-main-page-element">
-      <p id="topSectionForAddingElementToList">
+    <div class="app-interface__main-block">
+      <p>
       <label class="app-interface__add-task" for="new-task">Add Item</label>
-      <div class="task-row-wrapper">
+      <div class="app-interface__add-new-task">
         <input class="input-el input-el_text new-task task" type="text">
         <button class="app-interface__button">Add</button>
       </div>
@@ -37,8 +37,8 @@
             <img class="app-interface__img-button" src="./remove.svg" alt="remove task">
           </button>
           </li>
-        <li class="tasks-list__task editMode">
-          <input class="input-e input-el_checkbox" type="checkbox">
+        <li class="tasks-list__task tasks-list__edit-mode">
+          <input class="input-el input-el_checkbox" type="checkbox">
           <label class="task app-interface__task-label">Go Shopping</label>
           <input type="text" value="Go Shopping" class="input-el input-el_text task">
           <button class="edit app-interface__button">Save</button>
